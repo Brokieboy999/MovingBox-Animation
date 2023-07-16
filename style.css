@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: changeBG 15s ease  infinite  ;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+span{
+    color: rgb(255, 36, 36);
+    /* border: 2px solid black; */
+}
+
+@keyframes changeBG {
+    0%{
+        background-color: red;
+    }
+
+    20%{
+        background-color: yellow;
+    }
+
+    40%{
+        background-color: green;
+    }
+
+    60%{
+        background-color: blue;
+    }
+
+    80%{
+        background-color: purple;
+    }
+
+    100%{
+        background-color: red;
+    }
+}
